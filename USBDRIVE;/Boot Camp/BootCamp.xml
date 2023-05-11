@@ -1,0 +1,2693 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xml' href='test.xsl'?>
+<!--Information on Boot Camp build-->
+<BuildInfo BuildNumber="2058" ProductName="Boot Camp">
+	<MsiInfo>
+		<ProductManufacturer>Apple Inc.</ProductManufacturer>
+		<ProductVersion>3.0.0</ProductVersion>
+		<ProductCode>{B56ACF7B-D7B5-442b-8E1D-6B41347D88B2}</ProductCode>
+		<Component Name="AppleOSSMgr.exe" GUID="CF7C9D22-E310-11DB-941B-359156D89593" SharedDLL="yes">
+			<File Name="AppleOSSMgr.exe">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>3.0.0.1</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Apple Inc.\Boot Camp</Key>
+				<Name>Build Version</Name>
+				<Type>string</Type>
+				<Value>[BUILDVERSION]</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup</Key>
+				<Name>BootDir</Name>
+				<Type>string</Type>
+				<Value>C:\</Value>
+			</Registry>
+		</Component>
+		<Component Name="WdfLoadReg" GUID="F7961785-370A-4255-B2B4-3523CF0614A9" SharedDLL="No">
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\Network\WdfLoadGroup</Key>
+				<Name>null</Name>
+				<Type>string</Type>
+				<Value>Driver Group</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\Minimal\WdfLoadGroup</Key>
+				<Name>null</Name>
+				<Type>string</Type>
+				<Value>Driver Group</Value>
+			</Registry>
+		</Component>
+		<Component Name="AppleTimeSrv.exe" GUID="70ABE3F4-F5D6-4692-AC73-B30D653B21A9" SharedDLL="yes">
+			<File Name="AppleTimeSrv.exe">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>2.1.1.0</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</Key>
+				<Name>AppleTime</Name>
+				<Type>null</Type>
+				<Value>null</Value>
+			</Registry>
+		</Component>
+		<Component Name="AppleControlPanel.exe" GUID="56d8db5e-24ee-11dc-8314-0800200c9a66" SharedDLL="yes">
+			<File Name="AppleControlPanel.exe">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>3.0.0.0</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\ControlPanel\NameSpace\{4d0f8110-1de4-11dc-8314-0800200c9a66}</Key>
+				<Name>null</Name>
+				<Type>string</Type>
+				<Value>Apple Control Panel</Value>
+			</Registry>
+			<Registry>
+				<Key>HKCR\CLSID\{4d0f8110-1de4-11dc-8314-0800200c9a66}</Key>
+				<Name>null</Name>
+				<Type>string</Type>
+				<Value>Boot Camp</Value>
+			</Registry>
+			<Registry>
+				<Key>HKCR\CLSID\{4d0f8110-1de4-11dc-8314-0800200c9a66}</Key>
+				<Name>{305CA226-D286-468e-B848-2B2E8E697B74} 2</Name>
+				<Type>integer</Type>
+				<Value>5</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</Key>
+				<Name>Brightness</Name>
+				<Type>null</Type>
+				<Value>null</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel\Extended Properties\{305CA226-D286-468e-B848-2B2E8E697B74} 2</Key>
+				<Name>%SystemRoot%\system32\Startup Disk.cpl</Name>
+				<Type>null</Type>
+				<Value>null</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\ControlPanel\NameSpace\{4BCC27C9-EB40-48cd-A331-521888CCE354}</Key>
+				<Name>null</Name>
+				<Type>null</Type>
+				<Value>null</Value>
+			</Registry>
+			<Registry>
+				<Key>HKCR\CLSID\{4BCC27C9-EB40-48cd-A331-521888CCE354}</Key>
+				<Name>null</Name>
+				<Type>null</Type>
+				<Value>null</Value>
+			</Registry>
+		</Component>
+		<Component Name="EnableS3Registry" GUID="28D13412-E926-11DB-A219-906C55D89593" SharedDLL="No">
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Services\usb</Key>
+				<Name>null</Name>
+				<Type>null</Type>
+				<Value>null</Value>
+			</Registry>
+		</Component>
+		<Component Name="KeyAgent.sys" GUID="DC803C0B-3FC9-42EE-8C0F-33DB9293C918" SharedDLL="No">
+			<File Name="KeyAgent.sys">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>3.0.0.0</FileVersion>
+			</File>
+		</Component>
+		<Component Name="MacHALDriver.sys" GUID="B0C9179C-E9FB-11DB-98B2-905356D89593" SharedDLL="No">
+			<File Name="MacHALDriver.sys">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>6.200.1.2</FileVersion>
+			</File>
+		</Component>
+		<Component Name="AppleHFS.sys" GUID="D61603E5-1D25-4429-8DF3-DDEF59B85828" SharedDLL="yes">
+			<File Name="AppleHFS.sys">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>3.0.1.6</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Services\AppleHFS</Key>
+				<Name>Type</Name>
+				<Type>integer</Type>
+				<Value>2</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Services\AppleHFS</Key>
+				<Name>ErrorControl</Name>
+				<Type>integer</Type>
+				<Value>1</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Services\AppleHFS</Key>
+				<Name>Start</Name>
+				<Type>integer</Type>
+				<Value>0</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Services\AppleHFS</Key>
+				<Name>Group</Name>
+				<Type>string</Type>
+				<Value>File System</Value>
+			</Registry>
+		</Component>
+		<Component Name="AppleMNT.sys" GUID="6991C22F-235A-4d07-BA49-4DEE9E61F0A9" SharedDLL="yes">
+			<File Name="AppleMNT.sys">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>3.0.1.6</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Services\AppleMNT</Key>
+				<Name>Group</Name>
+				<Type>string</Type>
+				<Value>System Bus Extender</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Services\AppleMNT</Key>
+				<Name>Type</Name>
+				<Type>integer</Type>
+				<Value>1</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Services\AppleMNT</Key>
+				<Name>ErrorControl</Name>
+				<Type>integer</Type>
+				<Value>1</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Services\AppleMNT</Key>
+				<Name>Start</Name>
+				<Type>integer</Type>
+				<Value>0</Value>
+			</Registry>
+		</Component>
+		<Component Name="Bootcamp.exe" GUID="4EB89003-66C9-4967-BF2A-50AD34561A33" SharedDLL="No">
+			<File Name="Bootcamp.exe">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>3.0.0.0</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</Key>
+				<Name>Apple_KbdMgr</Name>
+				<Type>string</Type>
+				<Value>[#Bootcamp.exe]</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Apple Inc.\Boot Camp</Key>
+				<Name>Old Preload</Name>
+				<Type>string</Type>
+				<Value>[OLD_KBD_PRELOAD]</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C4DC9AAA-64A3-4429-9C37-55D2F6CD7528}</Key>
+				<Name>null</Name>
+				<Type>null</Type>
+				<Value>null</Value>
+			</Registry>
+		</Component>
+		<Component Name="BelgiumA.dll" GUID="E83CE225-AAF8-48EF-BC96-EAD876C01287" SharedDLL="No">
+			<File Name="BelgiumA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000813</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_BelgiumA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000813</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>BelgiumA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000813</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00cd</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000813</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>D70C1682E8F24ED4B5B70AAD37B1BA42</Value>
+			</Registry>
+		</Component>
+		<Component Name="BritishA.dll" GUID="15A72BAC-EE04-11DB-8C23-E9B755D89593" SharedDLL="No">
+			<File Name="BritishA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000809</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_BritishA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000809</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>BritishA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000809</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c0</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000809</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>1A4D378083AD454BB4FE02F208614EB6</Value>
+			</Registry>
+		</Component>
+		<Component Name="CanadaA.dll" GUID="5380EC24-EE04-11DB-9974-4EB855D89593" SharedDLL="No">
+			<File Name="CanadaA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000c0c</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_CanadaA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000c0c</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>CanadaA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000c0c</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00ca</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000c0c</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>517A729DDEC543E3A7F392E3F130C25F</Value>
+			</Registry>
+		</Component>
+		<Component Name="DanishA.dll" GUID="4FC00822-EE04-11DB-87A3-48B855D89593" SharedDLL="No">
+			<File Name="DanishA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000406</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_DanishA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000406</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>DanishA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000406</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00cc</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000406</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>C3996498F423440FB9CE2732A821E7D9</Value>
+			</Registry>
+		</Component>
+		<Component Name="DutchA.dll" GUID="4C508D06-EE04-11DB-951C-47B855D89593" SharedDLL="No">
+			<File Name="DutchA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000413</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_DutchA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000413</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>DutchA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000413</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c1</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000413</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>3844B95343FB43D68E9695D6E88F016E</Value>
+			</Registry>
+		</Component>
+		<Component Name="FinnishA.dll" GUID="48E19CAA-EE04-11DB-A5F7-46B855D89593" SharedDLL="No">
+			<File Name="FinnishA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040b</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_FinnishA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040b</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>FinnishA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040b</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00cb</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040b</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>ECE9937799D242F5AE0CAA446EDEDC62</Value>
+			</Registry>
+		</Component>
+		<Component Name="FrenchA.dll" GUID="454E1B40-EE04-11DB-B3BE-45B855D89593" SharedDLL="No">
+			<File Name="FrenchA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040c</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_FrenchA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040c</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>FrenchA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040c</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c2</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040c</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>2ECD3C77364749B18E910F9196B420FA</Value>
+			</Registry>
+		</Component>
+		<Component Name="GermanA.dll" GUID="41E1D00A-EE04-11DB-907B-42B855D89593" SharedDLL="No">
+			<File Name="GermanA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000407</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_GermanA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000407</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>GermanA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000407</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c3</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000407</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>B616E2191BF048D4A554E5C6BE224AB4</Value>
+			</Registry>
+		</Component>
+		<Component Name="ItalianA.dll" GUID="3DDB1D18-EE04-11DB-A555-3AB855D89593" SharedDLL="No">
+			<File Name="ItalianA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000410</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_ItalianA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000410</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>ItalianA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000410</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c4</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000410</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>6401AAA6058F431181B445C26BEF22D9</Value>
+			</Registry>
+		</Component>
+		<Component Name="NorwayA.dll" GUID="39D16326-EE04-11DB-9D86-39B855D89593" SharedDLL="No">
+			<File Name="NorwayA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000414</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_NorwayA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000414</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>NorwayA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000414</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c9</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000414</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>74BE397ABD8143E4960D38111394D1A3</Value>
+			</Registry>
+		</Component>
+		<Component Name="PolishA.dll" GUID="583ea9a4-36e8-11dc-8314-0800200c9a66" SharedDLL="No">
+			<File Name="PolishA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000415</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_PolishA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000415</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>PolishA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000415</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00cf</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000415</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>D3D2841618E34D09ABBCA0DA34A60FAE</Value>
+			</Registry>
+		</Component>
+		<Component Name="PortuguA.dll" GUID="18c686cc-3583-11dc-8314-0800200c9a66" SharedDLL="No">
+			<File Name="PortuguA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000416</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_PortuguA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000416</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>PortuguA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000416</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00ce</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000416</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>326773935C8C4597B0738FE2084D44AD</Value>
+			</Registry>
+		</Component>
+		<Component Name="RussianA.dll" GUID="357BE76A-EE04-11DB-9D7F-38B855D89593" SharedDLL="No">
+			<File Name="RussianA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000419</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_RussianA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000419</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>RussianA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000419</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c8</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0000419</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>B0F62A69BE9446488ED502E800DBC36C</Value>
+			</Registry>
+		</Component>
+		<Component Name="SpanishA.dll" GUID="312BD648-EE04-11DB-BD52-2DB855D89593" SharedDLL="No">
+			<File Name="SpanishA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040a</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_SpanishA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040a</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>SpanishA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040a</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c5</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000040a</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>C3364C7C44BC444A88A50459135D35B5</Value>
+			</Registry>
+		</Component>
+		<Component Name="SwedishA.dll" GUID="2C0F1FBC-EE04-11DB-B854-26B855D89593" SharedDLL="No">
+			<File Name="SwedishA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000041d</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_SwedishA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000041d</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>SwedishA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000041d</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c7</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000041d</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>8CC8067A1BFF4A0FAD38708DE4CD4BF1</Value>
+			</Registry>
+		</Component>
+		<Component Name="SwissA.dll" GUID="27705B56-EE04-11DB-AFCA-18B855D89593" SharedDLL="No">
+			<File Name="SwissA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000100c</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_SwissA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000100c</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>SwissA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000100c</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00c6</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a000100c</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>CE4C7E2419DE400B8A553E1A5C3DCD04</Value>
+			</Registry>
+		</Component>
+		<Component Name="IntlEngA.dll" GUID="AC6684F1-E558-472e-BA58-272CB982A2AE" SharedDLL="No">
+			<File Name="IntlEngA.dll">
+				<KeyPath>yes</KeyPath>
+				<FileVersion>1.0.3.13</FileVersion>
+			</File>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0020409</Key>
+				<Name>Layout Text</Name>
+				<Type>string</Type>
+				<Value>$(loc.KBL_IntlEngA)</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0020409</Key>
+				<Name>Layout File</Name>
+				<Type>string</Type>
+				<Value>IntlEngA.dll</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0020409</Key>
+				<Name>Layout Id</Name>
+				<Type>string</Type>
+				<Value>00d0</Value>
+			</Registry>
+			<Registry>
+				<Key>HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a0020409</Key>
+				<Name>Layout Component ID</Name>
+				<Type>string</Type>
+				<Value>241A34D0-06DB-405e-8B4E-8CA2FC34D1C7</Value>
+			</Registry>
+		</Component>
+		<Component Name="BootCampInstallerCache" GUID="3C6BA608-0409-11DC-9B87-619F55D89593" SharedDLL="No">
+		</Component></MsiInfo>
+	<InfInfo>
+		<Apple>
+			<Name> "Apple USB Ethernet Adapter "
+				<InfName>AppleUSBEthernet.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4d36e972-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile> AppleUSBEthernet.cat</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer> 01/11/2008, 3.4.3.18</DriverVer>
+				<ServiceBinary>AppleUSBEthernet.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple USB Ethernet Adapter
+				<InfName>AppleUSBEthernet.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4d36e972-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile> AppleUSBEthernetex.cat</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer> 01/11/2008, 3.10.3.9</DriverVer>
+				<ServiceBinary>AppleUSBEthernet.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name> "Apple USB Ethernet Adapter "
+				<InfName>AppleUSBEthernet.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4d36e972-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile> AppleUSBEthernet.cat</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer> 01/11/2008, 3.4.3.18</DriverVer>
+				<ServiceBinary>AppleUSBEthernet.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Built-in Bluetooth
+				<InfName>AppleBT.inf</InfName>
+				<Class>Bluetooth</Class>
+				<ClassGUID>{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}</ClassGUID>
+				<CatalogFile>AppleBT.CAT</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer>01/19/2009, 2.1.2.1</DriverVer>
+				<ServiceBinary>applebt.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Built-in Bluetooth
+				<InfName>AppleBT64.inf</InfName>
+				<Class>Bluetooth</Class>
+				<ClassGUID>{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}</ClassGUID>
+				<CatalogFile>AppleBT64.CAT</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>01/19/2009, 2.1.2.1</DriverVer>
+				<ServiceBinary>applebt.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Apple Bluetooth Device Driver
+				<InfName>BthKicker.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>BthKicker.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>06/27/2007,2.0.0.1</DriverVer>
+				<ServiceBinary>BthKicker.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Bluetooth Device Driver
+				<InfName>BthKicker64.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>BthKicker.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>06/27/2007,2.0.0.1</DriverVer>
+				<ServiceBinary>BthKicker.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Apple Display Driver
+				<InfName>aaplmonf.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>aaplmonf.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>01/23/2009,3.0.0.0</DriverVer>
+				<ServiceBinary>aaplmonf.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Display Driver
+				<InfName>aaplmonf64.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>aaplmonf64.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>01/23/2009, 3.0.0.0</DriverVer>
+				<ServiceBinary>aaplmonf.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Apple Keyboard
+				<InfName>KeyMagic.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>KeyMagic.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>03/05/2009,3.0.0.0</DriverVer>
+				<ServiceBinary>KeyMagic.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Keyboard
+				<InfName>KeyMagic64.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>KeyMagic64.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>03/05/2009,3.0.0.0</DriverVer>
+				<ServiceBinary>KeyMagic.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Apple Multitouch Mouse
+				<InfName>AppleMTM.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>applemtm.cat</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer>03/25/2009,2.1.2.112</DriverVer>
+				<ServiceBinary>applemtm.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Multitouch
+				<InfName>AppleMTP.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>applemtp.cat</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer>03/25/2009,2.1.2.112</DriverVer>
+				<ServiceBinary>applemtp.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Multitouch Mouse
+				<InfName>AppleMTM64.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>applemtm64.cat</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer>03/25/2009,2.1.2.112</DriverVer>
+				<ServiceBinary>applemtm.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Apple Multitouch
+				<InfName>AppleMTP64.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>applemtp64.cat</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer>03/25/2009,2.1.2.112</DriverVer>
+				<ServiceBinary>applemtp.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Apple Null Driver
+				<InfName>AppleNull.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>AppleNull.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>08/22/2008,2.1.1.1</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Null Driver
+				<InfName>AppleNull64.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>AppleNull.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>08/22/2008,2.1.1.1</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Apple ODD
+				<InfName>AppleODD.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>AppleODD.cat</CatalogFile>
+				<Provider> "Apple Inc." </Provider>
+				<DriverVer>01/17/2008,2.0.2.2</DriverVer>
+				<ServiceBinary>AppleODD.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple ODD
+				<InfName>AppleODD64.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>AppleODD64.cat</CatalogFile>
+				<Provider> "Apple Inc." </Provider>
+				<DriverVer>01/17/2008,2.0.2.2</DriverVer>
+				<ServiceBinary>AppleODD.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>IR Receiver Filter Driver
+				<InfName>IRFilter.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>IRFilter.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>02/21/2008,2.0.4.0</DriverVer>
+				<ServiceBinary>IRFilter.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>IR Receiver Filter Driver
+				<InfName>IRFilter64.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>IRFilter64.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>02/21/2008,2.0.4.0</DriverVer>
+				<ServiceBinary>IRFilter.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Apple Trackpad Enabler
+				<InfName>aapltctp.inf</InfName>
+				<Class>Mouse</Class>
+				<ClassGUID>{4D36E96F-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>aapltctp.cat</CatalogFile>
+				<Provider> "Apple Inc." </Provider>
+				<DriverVer>02/19/2009,3.0.0.0</DriverVer>
+				<ServiceBinary>aapltctp.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Trackpad
+				<InfName>aapltp.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>aapltp.cat</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer>03/05/2009,3.0.0.0</DriverVer>
+				<ServiceBinary>aapltp.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Apple Trackpad Enabler
+				<InfName>aapltctp64.inf</InfName>
+				<Class>Mouse</Class>
+				<ClassGUID>{4D36E96F-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>aapltctp64.cat</CatalogFile>
+				<Provider> "Apple Inc." </Provider>
+				<DriverVer>02/19/2009,3.0.0.0</DriverVer>
+				<ServiceBinary>aapltctp.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Apple Trackpad
+				<InfName>aapltp64.inf</InfName>
+				<Class>HIDClass</Class>
+				<ClassGUID>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGUID>
+				<CatalogFile>aapltp64.cat</CatalogFile>
+				<Provider> "Apple Inc."</Provider>
+				<DriverVer>03/05/2009,3.0.0.0</DriverVer>
+				<ServiceBinary>aapltp.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>iSight Update Driver
+				<InfName>iSight.inf</InfName>
+				<Class>Image</Class>
+				<ClassGUID>{6bdd1fc6-810f-11d0-bec7-08002be2092f}</ClassGUID>
+				<CatalogFile>iSight.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>10/25/2007,2.0.1.0</DriverVer>
+				<ServiceBinary>iSightUP.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+	<Name>iSight Update Driver
+				<InfName>iSight64.inf</InfName>
+				<Class>Image</Class>
+				<ClassGUID>{6bdd1fc6-810f-11d0-bec7-08002be2092f}</ClassGUID>
+				<CatalogFile>iSight64.cat</CatalogFile>
+				<Provider>"Apple Inc."</Provider>
+				<DriverVer>10/25/2007,2.0.1.0</DriverVer>
+				<ServiceBinary>iSightUP.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+				</Name>
+			</Apple>
+		<ThirdParty>
+			<Name>Atheros Extensible Wireless LAN device driver
+				<InfName>netathr.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4d36e972-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile> athrext.cat</CatalogFile>
+				<Provider> "Atheros Communications Inc."</Provider>
+				<DriverVer> 09/18/2008,7.6.1.122</DriverVer>
+				<ServiceBinary>athr.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Atheros Extensible Wireless LAN device driver
+				<InfName>netathrx.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4d36e972-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile> athrextx.cat</CatalogFile>
+				<Provider> "Atheros Communications Inc."</Provider>
+				<DriverVer> 09/18/2008,7.6.1.122</DriverVer>
+				<ServiceBinary>athrx.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Atheros AR5008 Wireless Network Adapter Service
+				<InfName>netathw.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4d36e972-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile> netathw.cat</CatalogFile>
+				<Provider>Atheros</Provider>
+				<DriverVer> 09/18/2008,7.6.1.149</DriverVer>
+				<ServiceBinary>athw.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Atheros AR5008 Wireless Network Adapter Service
+				<InfName>netathwx.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4d36e972-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile> netathwx.cat</CatalogFile>
+				<Provider>Atheros</Provider>
+				<DriverVer> 09/18/2008,7.6.1.149</DriverVer>
+				<ServiceBinary>athwx.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Cirrus Logic Driver for High Definition Audio Service" 
+				<InfName>clhdaud.inf</InfName>
+				<Class>MEDIA</Class>
+				<ClassGUID>{4d36e96c-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>clhdaud.cat</CatalogFile>
+				<Provider>CirrusLogic</Provider>
+				<DriverVer>05/04/2009, 1.0.0.13</DriverVer>
+				<ServiceBinary>system32\drivers\clhdaud.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>qd252x64.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>qd252x64.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>07/20/2007,1.2.76.0</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>qd25232.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>qd25232.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>07/20/2007,1.2.76.0</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NDIS6.0 Miniport Driver for Marvell Yukon Ethernet Controller
+				<InfName>yk60x86.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4D36E972-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> yk60x86.CAT</CatalogFile>
+				<Provider>Marvell</Provider>
+				<DriverVer> 03/23/2007, 10.12.7.3</DriverVer>
+				<ServiceBinary>yk60x86.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NDIS6.0 Miniport Driver for Marvell Yukon Ethernet Controller
+				<InfName>yk60x64.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4D36E972-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> yk60x64.CAT</CatalogFile>
+				<Provider>Marvell</Provider>
+				<DriverVer> 12/06/2007, 10.51.1.3</DriverVer>
+				<ServiceBinary>yk60x64.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>NDIS5.1 Miniport Driver for Marvell Yukon Ethernet Controller
+				<InfName>yk51x86.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4D36E972-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> yk51x86.CAT</CatalogFile>
+				<Provider>Marvell</Provider>
+				<DriverVer> 03/23/2007, 10.12.7.3</DriverVer>
+				<ServiceBinary>yk51x86.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Motorola Inc  Modem Driver
+				<InfName>usmserial.inf</InfName>
+				<Class> Modem</Class>
+				<ClassGUID> {4D36E96D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> usm56nt64.cat </CatalogFile>
+				<Provider>Motorola Inc</Provider>
+				<DriverVer>04/27/2007,6.12.08</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name> "Service for Realtek HD Audio (WDM)"
+				<InfName>2008s4el.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>2008s4el.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/27/2008, 9.0.0.1009</DriverVer>
+				<ServiceBinary>system32\drivers\RTKVHDA.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>5000XZVP.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>5000XZVP.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 8.6.0.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>5400.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>5400.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>10/19/2007, 8.5.0.1007</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>852.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>852.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>08/25/2003, 5.1.0.1006</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>855.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>855.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>10/11/2002, 4.20.1007</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>865.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>865.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>03/25/2004, 5.1.0.1009</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>915.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>915.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>03/10/2005, 7.0.0.1019</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>915M.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>915M.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/26/2004, 6.1.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>945.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>945.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/06/2007, 8.3.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>945GM.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>945GM.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/18/2007, 8.3.1.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>965g.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>965g.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>08/31/2007, 8.3.0.1016</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>965m.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>965m.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>10/19/2007, 8.3.1.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>dmi_pci.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>dmi_pci.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/10/2005, 7.0.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>E5100.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>E5100.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>04/30/2008, 8.6.1.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>E7220.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>E7220.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/10/2005, 7.0.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>E7230.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>E7230.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/22/2006, 8.1.0.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>E7300.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>E7300.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>04/16/2007, 8.4.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>E7520.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>E7520.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>03/09/2006, 7.3.0.1013</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>E8500.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>E8500.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/13/2005, 7.2.2.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ESB2id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ESB2id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ESB2ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ESB2ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>06/28/2008, 9.1.1.1003</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ESB2usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ESB2usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/15/2006, 7.4.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>g33q35.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>g33q35.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>12/11/2007, 8.4.0.1018</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich5core.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich5core.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/10/2005, 7.0.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich5id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich5id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich5ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich5ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ich5usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ich5usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/13/2006, 8.2.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich6core.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich6core.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/10/2005, 7.0.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich6id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich6id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich6ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich6ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ich6usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ich6usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/13/2006, 8.2.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich7core.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich7core.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 8.6.1.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich7id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich7id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich7ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich7ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ich7usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ich7usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/13/2006, 8.2.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich8core.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich8core.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 8.6.1.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich8id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich8id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich8ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich8ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich8smb.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich8smb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>04/10/2006, 8.0.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ich8usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ich8usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/15/2006, 8.0.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich9core.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich9core.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 8.6.1.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich9id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich9id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/05/2007, 8.3.0.1016</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich9ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich9ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/25/2007, 8.3.0.1016</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich9smb.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich9smb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/13/2007, 8.3.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ich9usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ich9usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/05/2007, 8.3.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ichacore.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichacore.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/27/2008, 9.0.0.1009</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ichaid2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichaid2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/25/2008, 9.0.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ichaide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichaide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/25/2008, 9.0.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ichasmb.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichasmb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/25/2008, 9.0.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ichausb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ichausb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/25/2008, 9.0.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ichXdev.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichXdev.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/23/2005, 7.1.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>IntelCPU.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>IntelCPU.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>06/28/2008, 9.1.0.1003</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>IntelIOH.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>IntelIOH.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>07/30/2008, 9.1.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ioatdma.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ioatdma.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>08/14/2008,1.2.67.0</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>pm45gm45.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>pm45gm45.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>06/28/2008, 9.1.0.1003</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>qd3nodrv.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>qd3nodrv.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/15/2008,1.3.00.0</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>whed_dev.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>whed_dev.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/01/2007, 8.4.0.1013</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>2008s4el.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>2008s4el.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/27/2008, 9.0.0.1009</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>5000XZVP.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>5000XZVP.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 8.6.0.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>5400.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>5400.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/30/2008, 8.6.1.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>945.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>945.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/06/2007, 8.3.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>945GM.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>945GM.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/18/2007, 8.3.1.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>965g.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>965g.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>08/31/2007, 8.3.0.1016</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>965m.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>965m.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>10/19/2007, 8.3.1.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>dmi_pci.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>dmi_pci.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/15/2006, 7.0.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>E5100.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>E5100.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>04/30/2008, 8.6.1.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>E7300.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>E7300.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/30/2008, 8.6.1.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ESB2id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ESB2id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/30/2008, 8.6.1.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ESB2ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ESB2ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>06/28/2008, 9.1.1.1003</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ESB2usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ESB2usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/15/2006, 7.4.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>g33q35.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>g33q35.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/30/2008, 8.6.1.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich7core.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich7core.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 8.6.1.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich7id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich7id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich7ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich7ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ich7usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ich7usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/13/2006, 8.2.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich8ahci.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich8ahci.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 6.9.0.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich8core.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich8core.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 8.6.1.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich8id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich8id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich8ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich8ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>11/15/2006, 8.2.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich8smb.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich8smb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/15/2006, 8.0.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ich8usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ich8usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/15/2006, 8.0.0.1008</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich9ahci.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich9ahci.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 6.9.1.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich9core.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich9core.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/20/2008, 8.6.1.1002</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich9id2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich9id2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/30/2008, 8.6.1.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ich9ide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich9ide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/30/2008, 8.6.1.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ich9smb.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ich9smb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/30/2008, 8.6.1.1001</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ich9usb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ich9usb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/05/2007, 8.3.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ichaahci.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichaahci.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/25/2008, 7.0.0.1000</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ichacore.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichacore.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/27/2008, 9.0.0.1009</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ichaid2.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichaid2.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/25/2008, 9.0.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel hdc Driver
+				<InfName>ichaide.inf</InfName>
+				<Class>hdc</Class>
+				<ClassGUID>{4D36E96A-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichaide.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/25/2008, 9.0.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ichasmb.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichasmb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/25/2008, 9.0.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel USB Driver
+				<InfName>ichausb.inf</InfName>
+				<Class>USB</Class>
+				<ClassGUID>{36FC9E60-C465-11CF-8056-444553540000}</ClassGUID>
+				<CatalogFile>ichausb.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>02/25/2008, 9.0.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ichXdev.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ichXdev.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>09/15/2006, 7.1.0.1011</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>IntelCPU.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>IntelCPU.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>06/28/2008, 9.1.0.1003</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>IntelIOH.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>IntelIOH.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>07/30/2008, 9.1.0.1005</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>ioatdma.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>ioatdma.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>08/14/2008,1.2.67.0</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>pm45gm45.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>pm45gm45.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>06/28/2008, 9.1.0.1003</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>qd3nodrv.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>qd3nodrv.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>01/15/2008,1.3.00.0</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>Intel System Driver
+				<InfName>whed_dev.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>whed_dev.cat</CatalogFile>
+				<Provider>Intel</Provider>
+				<DriverVer>05/01/2007, 8.4.0.1013</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>NVIDIA  Display Driver
+				<InfName>nvao.inf</InfName>
+				<Class> Display</Class>
+				<ClassGUID> {4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> NVAO.CAT</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 04/15/2009, 7.15.11.8575</DriverVer>
+				<ServiceBinary>nvlddmkm.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA  Display Driver
+				<InfName>nvao.inf</InfName>
+				<Class> Display</Class>
+				<ClassGUID> {4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> NVAO.CAT</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 04/15/2009, 7.15.11.8575</DriverVer>
+				<ServiceBinary>nvlddmkm.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>NVIDIA  Display Driver
+				<InfName>nvao.inf</InfName>
+				<Class> Display</Class>
+				<ClassGUID> {4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> NVAO.CAT</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 04/15/2009, 6.14.11.8575</DriverVer>
+				<ServiceBinary>nv4_mini.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA Display Driver Service
+				<InfName>nvao.inf</InfName>
+				<Class> Display</Class>
+				<ClassGUID> {4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> nvao.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 01/08/2009, 7.15.11.7756</DriverVer>
+				<ServiceBinary>nvvsvc.exe</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA Display Driver Service
+				<InfName>nvao.inf</InfName>
+				<Class> Display</Class>
+				<ClassGUID> {4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> nvao.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 01/08/2009, 7.15.11.7756</DriverVer>
+				<ServiceBinary>nvvsvc.exe</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>NVIDIA Display Driver Service
+				<InfName>nvao.inf</InfName>
+				<Class> Display</Class>
+				<ClassGUID> {4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> nvao.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 01/08/2009, 6.14.11.7756</DriverVer>
+				<ServiceBinary>nvsvc32.exe</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Software\Microsoft\Windows\CurrentVersion\Uninstall\ATI Display Driver",DisplayName,,"ATI Display Driver
+				<InfName>CA_75040.inf</InfName>
+				<Class>Display</Class>
+				<ClassGUID>{4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>CA_75040.CAT</CatalogFile>
+				<Provider> "ATI Technologies Inc."</Provider>
+				<DriverVer>01/13/2009, 8.573.0.0000</DriverVer>
+				<ServiceBinary>Ati2evxx.exe</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Software\Microsoft\Windows\CurrentVersion\Uninstall\ATI Display Driver",DisplayName,,"ATI Display Driver
+				<InfName>CX_75040.inf</InfName>
+				<Class>Display</Class>
+				<ClassGUID>{4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>CX_75040.CAT</CatalogFile>
+				<Provider> "ATI Technologies Inc."</Provider>
+				<DriverVer>01/13/2009, 8.573.0.0000</DriverVer>
+				<ServiceBinary>Ati2evxx.exe</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel(R) High Definition Audio HDMI Service" 
+				<InfName>IntcHdmi.inf</InfName>
+				<Class>MEDIA</Class>
+				<ClassGUID>{4d36e96c-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>INTCHDMI.CAT</CatalogFile>
+				<Provider>Intel(R) Corporation</Provider>
+				<DriverVer>03/26/2007,6.10.00.2025</DriverVer>
+				<ServiceBinary>system32\drivers\IntcHdmi.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>Intel Corporation Display Driver
+				<InfName>igxp32.inf</InfName>
+				<Class>Display</Class>
+				<ClassGUID>{4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>igfxnt5.cat</CatalogFile>
+				<Provider>Intel Corporation</Provider>
+				<DriverVer>05/25/2007,6.14.10.4833</DriverVer>
+				<ServiceBinary>igxpmp32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel(R) High Definition Audio HDMI Service" 
+				<InfName>IntcHdmi.inf</InfName>
+				<Class>MEDIA</Class>
+				<ClassGUID>{4d36e96c-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>INTCHDMI.CAT</CatalogFile>
+				<Provider>Intel(R) Corporation</Provider>
+				<DriverVer>12/06/2006,5.10.00.1026</DriverVer>
+				<ServiceBinary>system32\drivers\IntcHdmi.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel Corporation Display Driver
+				<InfName>igdlh.inf</InfName>
+				<Class>Display</Class>
+				<ClassGUID>{4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>igdlh.cat</CatalogFile>
+				<Provider>Intel Corporation</Provider>
+				<DriverVer>09/13/2007,7.14.10.1329</DriverVer>
+				<ServiceBinary>igdkmd32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel(R) High Definition Audio HDMI Service" 
+				<InfName>IntcHdmi.inf</InfName>
+				<Class>MEDIA</Class>
+				<ClassGUID>{4d36e96c-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>INTCHDMI.CAT</CatalogFile>
+				<Provider>Intel(R) Corporation</Provider>
+				<DriverVer>06/06/2007,6.10.00.2035</DriverVer>
+				<ServiceBinary>system32\drivers\IntcHdmi.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel Corporation Display Driver
+				<InfName>igxp32.inf</InfName>
+				<Class>Display</Class>
+				<ClassGUID>{4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>igfxnt5.cat</CatalogFile>
+				<Provider>Intel Corporation</Provider>
+				<DriverVer>11/14/2007,6.14.10.4897</DriverVer>
+				<ServiceBinary>igxpmp32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>Intel(R) High Definition Audio HDMI Service" 
+				<InfName>IntcHdmi.inf</InfName>
+				<Class>MEDIA</Class>
+				<ClassGUID>{4d36e96c-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>INTCHDMI.CAT</CatalogFile>
+				<Provider>Intel(R) Corporation</Provider>
+				<DriverVer>05/04/2007,5.10.00.1030</DriverVer>
+				<ServiceBinary>system32\drivers\IntcHdmi.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>undefined Away Mode Devices Driver
+				<InfName>nvAwy32.inf</InfName>
+				<Class>Away Mode Devices</Class>
+				<ClassGUID>{7D2BA5A7-3892-44eb-95FD-EC7336FD7164}</ClassGUID>
+				<CatalogFile>nvaway.cat</CatalogFile>
+				<Provider></Provider>
+				<DriverVer>07/22/2008,6.0.6000.107</DriverVer>
+				<ServiceBinary>NVAMACPI.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA nForce Networking Controller Driver
+				<InfName>nvfd6032.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4D36E972-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> NVENETFD.CAT</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 07/08/2008, 67.8.6</DriverVer>
+				<ServiceBinary>nvmfdx32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA System Driver
+				<InfName>nf4sys.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318} </ClassGUID>
+				<CatalogFile>nf4sys.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 08/05/2008,5.1.2600.0467</DriverVer>
+				<ServiceBinary>system32\drivers\nvhda32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>NVIDIA  System Driver
+				<InfName>nvsmbus.inf</InfName>
+				<Class> System</Class>
+				<ClassGUID> {4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> nvsmb.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 08/05/2008, 4.6.7</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA System Driver
+				<InfName>smuc.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318} </ClassGUID>
+				<CatalogFile>nvsmu.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 07/22/2008,5.1.2600.0158 ;Changelist 2601453</DriverVer>
+				<ServiceBinary>nvsmu.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>undefined Away Mode Devices Driver
+				<InfName>nvAwy64.inf</InfName>
+				<Class>Away Mode Devices</Class>
+				<ClassGUID>{7D2BA5A7-3892-44eb-95FD-EC7336FD7164}</ClassGUID>
+				<CatalogFile>nvaway.cat</CatalogFile>
+				<Provider></Provider>
+				<DriverVer>07/22/2008,6.0.6000.107</DriverVer>
+				<ServiceBinary>NVAMACPI.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>NVIDIA nForce Networking Controller Driver
+				<InfName>nvfd6064.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4D36E972-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> NVENETFD.CAT</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 07/08/2008, 67.8.6</DriverVer>
+				<ServiceBinary>nvmfdx64.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>NVIDIA System Driver
+				<InfName>nf4sys.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318} </ClassGUID>
+				<CatalogFile>nf4sys.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 08/05/2008,5.1.2600.0467</DriverVer>
+				<ServiceBinary>system32\drivers\nvhda32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>NVIDIA  System Driver
+				<InfName>nfsmb64.inf</InfName>
+				<Class> System</Class>
+				<ClassGUID> {4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> nfsmb64.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 08/05/2008, 4.6.7</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>NVIDIA System Driver
+				<InfName>smuc64.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318} </ClassGUID>
+				<CatalogFile>nvsmu64.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 07/22/2008,5.1.2600.0158 ;Changelist 2601453</DriverVer>
+				<ServiceBinary>nvsmu.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>Nvidia Corporation System  Driver
+				<InfName>nvawy.inf</InfName>
+				<Class>System </Class>
+				<ClassGUID>{4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>nvaway.cat</CatalogFile>
+				<Provider>Nvidia Corporation</Provider>
+				<DriverVer>07/22/2008,6.0.6000.107</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>NVIDIA nForce Networking Controller Driver
+				<InfName>nvenetfd.inf</InfName>
+				<Class> Net</Class>
+				<ClassGUID> {4D36E972-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> NVENETFD.CAT</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 07/08/2008, 67.8.6</DriverVer>
+				<ServiceBinary>NVENETFD.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA Network Bus Enumerator
+				<InfName>nvnetbus.inf</InfName>
+				<Class>NVIDIA Network Bus Enumerator</Class>
+				<ClassGUID>{1a3e09be-1e45-494b-9174-d7385b45bbf5}</ClassGUID>
+				<CatalogFile>nvnetbus.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 07/08/2008, 67.8.6</DriverVer>
+				<ServiceBinary>nvnetbus.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA System Driver
+				<InfName>nf4sys.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318} </ClassGUID>
+				<CatalogFile>nf4sys.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 08/05/2008,5.1.2600.0467</DriverVer>
+				<ServiceBinary>system32\drivers\nvhda32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>Both</isX64>
+			</Name>
+			<Name>NVIDIA  System Driver
+				<InfName>nvsmbus.inf</InfName>
+				<Class> System</Class>
+				<ClassGUID> {4D36E97D-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile> nvsmb.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 08/05/2008, 4.6.7</DriverVer>
+				<ServiceBinary></ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA System Driver
+				<InfName>smuc.inf</InfName>
+				<Class>System</Class>
+				<ClassGUID>{4d36e97d-e325-11ce-bfc1-08002be10318} </ClassGUID>
+				<CatalogFile>nvsmu.cat</CatalogFile>
+				<Provider>NVIDIA</Provider>
+				<DriverVer> 07/22/2008,5.1.2600.0158 ;Changelist 2601453</DriverVer>
+				<ServiceBinary>nvsmu.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>ATI Function Driver for HDMI Service" 
+				<InfName>AtiHDAud.inf</InfName>
+				<Class>MEDIA</Class>
+				<ClassGUID>{4d36e96c-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>atihdmi.cat</CatalogFile>
+				<Provider>ATI</Provider>
+				<DriverVer>10/30/2008,5.00.50000.08</DriverVer>
+				<ServiceBinary>system32\drivers\AtiHdmi.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>ATI Function Driver for HDMI Service" 
+				<InfName>AtiHDAud.inf</InfName>
+				<Class>MEDIA</Class>
+				<ClassGUID>{4d36e96c-e325-11ce-bfc1-08002be10318}</ClassGUID>
+				<CatalogFile>atihdmi.cat</CatalogFile>
+				<Provider>ATI</Provider>
+				<DriverVer>10/30/2008,5.00.50000.08</DriverVer>
+				<ServiceBinary>system32\drivers\AtiHdmi.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name> "ATI Technologies Inc." Display Driver
+				<InfName>CH_75041.inf</InfName>
+				<Class>Display</Class>
+				<ClassGUID>{4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>CH_75041.CAT</CatalogFile>
+				<Provider> "ATI Technologies Inc."</Provider>
+				<DriverVer>01/13/2009, 8.573.0.0000</DriverVer>
+				<ServiceBinary>Ati2evxx.exe</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name> "ATI Technologies Inc." Display Driver
+				<InfName>CL_75041.inf</InfName>
+				<Class>Display</Class>
+				<ClassGUID>{4D36E968-E325-11CE-BFC1-08002BE10318}</ClassGUID>
+				<CatalogFile>CL_75041.CAT</CatalogFile>
+				<Provider> "ATI Technologies Inc."</Provider>
+				<DriverVer>01/13/2009, 8.573.0.0000</DriverVer>
+				<ServiceBinary>Ati2evxx.exe</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA nForce RAID Driver
+				<InfName>nvrd32.inf</InfName>
+				<Class>SCSIAdapter</Class>
+				<ClassGUID>{4D36E97B-E325-11CE-BFC1-08002BE10318} </ClassGUID>
+				<CatalogFile>nvraid.cat</CatalogFile>
+				<Provider>NVIDIA Corporation</Provider>
+				<DriverVer>07/21/2008,10.3.0.39</DriverVer>
+				<ServiceBinary>nvrd32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA Corporation HDC Driver
+				<InfName>nvstor32.inf</InfName>
+				<Class>HDC</Class>
+				<ClassGUID>{4d36e96a-e325-11ce-bfc1-08002be10318} </ClassGUID>
+				<CatalogFile>nvata.cat</CatalogFile>
+				<Provider>NVIDIA Corporation</Provider>
+				<DriverVer>07/21/2008,10.3.0.39</DriverVer>
+				<ServiceBinary>nvstor32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA nForce RAID Driver
+				<InfName>nvrd64.inf</InfName>
+				<Class>SCSIAdapter</Class>
+				<ClassGUID>{4D36E97B-E325-11CE-BFC1-08002BE10318} </ClassGUID>
+				<CatalogFile>nvraid.cat</CatalogFile>
+				<Provider>NVIDIA Corporation</Provider>
+				<DriverVer>07/21/2008,10.3.0.39</DriverVer>
+				<ServiceBinary>nvrd64.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>NVIDIA Corporation HDC Driver
+				<InfName>nvstor64.inf</InfName>
+				<Class>HDC</Class>
+				<ClassGUID>{4d36e96a-e325-11ce-bfc1-08002be10318} </ClassGUID>
+				<CatalogFile>nvata.cat</CatalogFile>
+				<Provider>NVIDIA Corporation</Provider>
+				<DriverVer>07/21/2008,10.3.0.39</DriverVer>
+				<ServiceBinary>nvstor64.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>yes</isX64>
+			</Name>
+			<Name>NVIDIA nForce RAID Driver
+				<InfName>nvrd32.inf</InfName>
+				<Class>SCSIAdapter</Class>
+				<ClassGUID>{4D36E97B-E325-11CE-BFC1-08002BE10318} </ClassGUID>
+				<CatalogFile>nvraid.cat</CatalogFile>
+				<Provider>NVIDIA Corporation</Provider>
+				<DriverVer>07/21/2008,10.3.0.39</DriverVer>
+				<ServiceBinary>nvrd32.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+			<Name>NVIDIA Corporation HDC Driver
+				<InfName>nvgts.inf</InfName>
+				<Class>HDC</Class>
+				<ClassGUID>{4d36e96a-e325-11ce-bfc1-08002be10318} </ClassGUID>
+				<CatalogFile>nvata.cat</CatalogFile>
+				<Provider>NVIDIA Corporation</Provider>
+				<DriverVer>07/21/2008,10.3.0.39</DriverVer>
+				<ServiceBinary>nvgts.sys</ServiceBinary>
+				<HardwareID></HardwareID>
+				<isX64>no</isX64>
+			</Name>
+		</ThirdParty>
+	</InfInfo>
+	<FileInfo/>
+</BuildInfo>
