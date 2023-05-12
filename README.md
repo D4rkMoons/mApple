@@ -1,3 +1,5 @@
+mkdir ISO
+cd ISO
 
 wget https://github.com/brissonsean/MacOS-Installers/raw/10-10-5_Yosemite/ISO/[10.10.5]Yosemite_InstallMacOSX[C].part001.exe
 
