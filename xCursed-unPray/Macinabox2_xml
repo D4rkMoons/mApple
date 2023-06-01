@@ -4,7 +4,7 @@
   <uuid>7c8f9fa1-4812-4c25-9b69-8ccc639d6b9f</uuid>
   <description>MacOS Catalina2</description>
   <metadata>
-    <vmtemplate xmlns="unraid" name="Windows 10" icon="Catalina.png" os="osx"/>
+    <vmtemplate xmlns="unraid" name="Macinabox Catalina-Clone" icon="Catalina.png" os="osx"/>
   </metadata>
   <memory unit='KiB'>4194304</memory>
   <currentMemory unit='KiB'>4194304</currentMemory>
